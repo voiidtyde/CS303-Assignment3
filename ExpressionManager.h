@@ -7,9 +7,13 @@ namespace MyNamespace {
 
 class ExpressionManager {
 public:
+    // Constructor for the ExpressionManager class
     ExpressionManager();
 
+    // Function to check if an expression has balanced parentheses
     bool isBalancedParentheses(const std::string& expression);
+
+    // Function to convert an infix expression to postfix
     std::string infixToPostfix(const std::string& infixExpression);
 };
 
